@@ -5,4 +5,4 @@ A library for CodeIgiter that allows you to send text messages (SMS) via the Tex
 Usage
 -----
 	$this->load->library('textmarketer');
-	$this->textmarketer->send('07777777777', 'Hello world!', $from = 'Chris');
+	$this->textmarketer->send('07777777777', 'Hello world!', 'Chris');
